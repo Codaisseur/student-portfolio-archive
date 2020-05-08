@@ -1,0 +1,31 @@
+div.img {
+  background-image: url("../../images/typewriter.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 91.8vh;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text > span {
+  font-size: 100px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.hero-text > p {
+  font-size: 25px;
+  margin: 0;
+  font-family: 'Special Elite', cursive;
+}
+
+.hero-text > img {
+  margin-top: 9px;
+}

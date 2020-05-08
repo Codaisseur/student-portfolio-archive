@@ -1,0 +1,9 @@
+.header-section {
+  padding: 24px 32px 24px 32px;
+  background-color: #01579b !important;
+}
+
+.header-section a {
+  color: #fff !important;
+  font-weight: bolder;
+}

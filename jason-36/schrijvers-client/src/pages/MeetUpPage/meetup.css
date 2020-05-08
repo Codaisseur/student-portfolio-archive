@@ -1,0 +1,16 @@
+.meetup-page {
+  background-color: black;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 91.8vh;
+}
+
+.coming-soon {
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}

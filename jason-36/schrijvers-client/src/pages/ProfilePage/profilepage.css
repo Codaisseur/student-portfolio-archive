@@ -1,0 +1,59 @@
+.buttons {
+  margin: 12px 10px 10px 75%;
+}
+
+.button {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.profile-page {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.my-stories-container > h2 {
+  font-family: 'Dancing Script', cursive;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+.profile-story {
+  border: solid 1px black;
+  background-color: #343a40;
+  color: whitesmoke;
+  margin-top: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 20px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 7px;
+} 
+
+.login-profile-container {
+  background-color: black;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 91.8vh;
+}
+
+.login-profile {
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.login-profile >h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  margin-bottom: 25px;
+}

@@ -1,0 +1,34 @@
+.story-info-container {
+  text-align: center;
+}
+
+.story-info-container > h2 {
+  margin-top: 10px;
+}
+
+.story-info-container > h4 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.story-info-container > h5 {
+  margin-bottom: 30px;
+}
+
+.heatmap-container {
+  margin-top: 40px;
+  width: 50%;
+  text-align: start;
+  margin-left: 25%;
+
+}
+
+.storyInfo-buttons {
+  text-align: start;
+  margin: 10px;
+}
+
+.heatmap {
+  font-size: 12px;
+}
+

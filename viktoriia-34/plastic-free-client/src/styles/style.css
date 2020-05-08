@@ -1,0 +1,156 @@
+.header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  padding: 40px 0;
+}
+
+.header a {
+  color: black;
+  margin: 0 50px;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+}
+
+.header a:hover {
+  color: #6ece6e;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-family: "Baloo Thambi 2", "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  border-style: none;
+  text-align: center;
+  border: 10px solid #6ece6e;
+}
+
+body ul {
+  list-style: none;
+}
+
+body a {
+  color: #6ece6e;
+  text-decoration: none;
+}
+
+body h1 {
+  margin: 12px;
+  font-size: 32px;
+}
+
+body input,
+body button {
+  width: 220px;
+  font: inherit;
+  height: 60px;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 5px 15px;
+  margin: 0 0 0 -5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 5px solid black;
+}
+
+.search {
+  width: 120px;
+  background-color: black;
+  color: white;
+}
+
+.suggestion:hover {
+  background-color: #6ece6e;
+}
+
+.add-form {
+  margin: 40px;
+}
+
+.add-form form button {
+  color: white;
+  background-color: #6ece6e;
+  border: 5px solid #6ece6e;
+}
+
+.search-place {
+  width: 500px;
+  margin: 40px;
+}
+
+.login input,
+.login button,
+.logout input,
+.logout button,
+.signup input,
+.signup button {
+  width: 280px;
+  font: inherit;
+  height: 60px;
+  font-size: 22px;
+  padding: 5px 15px;
+  margin: 5px;
+}
+
+.login form,
+.logout form,
+.signup form {
+  margin: 20px;
+}
+
+.login form button,
+.logout form button,
+.signup form button {
+  color: white;
+  background-color: #6ece6e;
+  border: 5px solid #6ece6e;
+}
+
+.popular-searches {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  border-style: none;
+  text-align: center;
+  margin: 40px auto;
+  display: block;
+}
+
+.popular-searches li {
+  width: 510px;
+  font: inherit;
+  height: 40px;
+  font-size: 22px;
+  padding: 10px;
+  margin: -5px 300px;
+  border: 5px solid black;
+}
+
+.container {
+  border-top: 1px normal gray;
+  margin: auto;
+}
+
+.storelist {
+  font: inherit;
+  color: black;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.view-options b:hover {
+  color: #6ece6e;
+}
+
+.active {
+  color: #6ece6e;
+}
+/*# sourceMappingURL=style.css.map */

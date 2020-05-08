@@ -1,0 +1,1 @@
+export const selectProfilePage = state => state.profilePage

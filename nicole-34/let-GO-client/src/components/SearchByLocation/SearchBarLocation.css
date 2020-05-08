@@ -1,0 +1,27 @@
+.search-bar-location {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* * {
+  border: 1px solid black;
+} */
+
+.search-bar-btn {
+  margin-right: 10px;
+}
+
+.clearn-search-btn {
+  margin-left: 10px;
+}
+
+.search-bar-field {
+  width: 100% !important;
+}
+
+.input-group {
+  width: 100% !important;
+}

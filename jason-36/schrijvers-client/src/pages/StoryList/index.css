@@ -1,0 +1,48 @@
+.story-list {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+
+.story-list > h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 70px;
+}
+
+.story-container {
+  display: flex;
+  border: solid 1px black;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: whitesmoke;
+  font-family: 'Special Elite', cursive;
+}
+
+
+.story-text {
+  margin-left: 10px;
+}
+
+.story-text > p {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.posted {
+  font-size: 12px;
+}
+
+.story-container > img {
+  margin-top: 11px;
+}
+
+.age {
+  color: red;
+}

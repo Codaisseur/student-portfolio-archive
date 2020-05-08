@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap");
+$base-color: white;
+$day-highlight: #d9534f;
+$shadow: 2px 2px 1px rgba(68, 68, 68, 0.3);
+$calendar-hover: rgb(255, 153, 0);
+$table-head: #5bc0de;
+$cell-width: 7vw;
+$cell-height: 7.5vw;
+
+.loginLogo {
+  font-family: "Spicy Rice", cursive;
+  height: 40px;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.main {
+  background-color: $base-color;
+  margin-bottom: 100px;
+}
+.header {
+  text-align: center;
+  font-size: 4vw;
+  padding: 1vh;
+  background-color: $base-color;
+}
+
+//Events
+.eventClick {
+  margin: 1vh 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+// Calendar
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.yearInput {
+  display: inline-block;
+  border: none;
+  outline: none;
+  margin: 0;
+  -moz-appearance: textfield;
+}
+.yearInput:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.table {
+  margin: 0 auto 150px;
+  thead {
+    background-color: $table-head;
+    box-shadow: $shadow;
+    th {
+      font-size: 1.1vw;
+      text-align: center;
+      padding: 1vh;
+      height: 2vh;
+      min-width: $cell-width;
+    }
+  }
+  tbody {
+    td {
+      max-width: $cell-width;
+      padding: 3px;
+    }
+    .cell-wkno {
+      font-size: 5vw;
+      text-align: center;
+      color: #00000033;
+      // justify-content: justify;
+      min-width: 100%;
+    }
+    .cell {
+      font-size: 1.5vw;
+      font-weight: bold;
+      box-shadow: $shadow;
+      padding: 1.2vh 0 1vh 1.2vh;
+      height: $cell-height;
+      border-radius: 10px;
+      border: 1px solid rgba(68, 68, 68, 0.3);
+      transition: all 0.3s ease;
+      overflow: scroll;
+    }
+    .cell::-webkit-scrollbar {
+      display: none;
+    }
+    .cell:hover {
+      background-color: $calendar-hover;
+      transform: scale3d(1.2, 1.2, 1.2);
+      transition: all 0.2s ease;
+      border-radius: 10px;
+    }
+    .calEvents {
+      font-size: 1vw;
+    }
+    .eventLink {
+      cursor: pointer;
+    }
+  }
+}

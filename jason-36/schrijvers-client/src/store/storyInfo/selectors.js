@@ -1,0 +1,1 @@
+export const selectStoryInfo = state => state.storyInfo;
